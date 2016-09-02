@@ -22,26 +22,37 @@
     <div class="nav">
       <div class="container">
         <ul>
-          <li>Download</li>
-          <li>Source Code</li>
-          <li>GitHub</li>
+          <li><a href="https://github.com/Grant-Redmond/crypt">Download</a></li>
+          <li><a href="https://github.com/Grant-Redmond/crypt">Source Code</a></li>
+          <li><a href="https://github.com/Grant-Redmond/crypt"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png"></a></li>
           <li>About</li>
-					<li>Contact</li>
+          <li><a href="https://github.com/Grant-Redmond/crypt">Contact</a></li>
         </ul>
       </div>
     </div>
 
     <div class="main">
+      <img src="http://www.warranteer.com/wp-content/uploads/2015/09/bitcoin.png">
       <div class="container">
-        
-
-        <h2>The Innovation Cloud Conference</h2>
-        <p>Protect your digital assest. BTC, ETH, DAO, DASH, LITE COIN, DOGE; Everything At The Tip of Your Fingers.</p>
-        <p>Utilize The Power of Blockchain & Cryptocurrency. We don't hold your funds...Nobody does.</p>
-         <p>Checkout Our Code On Github!</p>
+        <h2>A Home For All Your Currencies</h2>
+        <p>Protect your digital assest. BTC, ETH, DAO, DASH, LITE COIN, DOGE, USDT; Everything At The Tip of Your Fingers.</p>
+        <p>Hear industry leaders talk about what worked (and what didn't) so that you can save time on your most challenging projects.</p>
+         <p>Learn about the latest research and technologies that you can use immediately to invent the future.</p>
       </div>
     </div>
-
+		<div class="jumbotron">
+      <div class="container-bottom">
+      <h3>
+        Contact Us To Get Involved
+      </h3>
+      <p>
+        CRYPT is in development & hiring</p>
+        <h4>
+        <a class="btn" href="www.sitezwebdesign.com">Learn More</a>
+      </h4>
+        </div>
+    </div>
     
+   
   </body>
 </html>

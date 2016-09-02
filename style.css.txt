@@ -8,6 +8,22 @@ body {
 	font-weight: 100;
 }
 
+.nav li img {
+  margin-bottom: -6px;
+  width: 30px;
+}
+
+.main img {
+   width: 250px;
+   float: left;
+   padding: 40px;
+   margin-top: -5px;
+  }
+
+.main {
+  background-color: white;
+  padding: 90px;
+}
 
 .container {
 	margin: 0 auto;
@@ -64,6 +80,16 @@ a {
   text-decoration: none;
 }
 
+li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
 .btn {
   margin: auto;
   background: black;
@@ -90,14 +116,14 @@ btn:visited {
 
 /* Nav */
 .nav {
-
+ background-color: #F7F9F9;
+ padding: 20px;
 }
 
 
 .nav ul {
   display: inline;
 	list-style: none;
-  background-color: white;
 	margin: 0 auto; 
 	padding: 30px;
 	text-align: center; 
@@ -118,15 +144,29 @@ btn:visited {
   width: 100%;
 }
 
+.container-bottom {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 25px;
+  margin: 300px 0 0 400px;
+  float: left;
+  width: 30%;
+}
+
+.container-bottom h4 {
+  margin-top: 30px;
+}
+
 /* Main */
 .main .container {
-	margin: 80px auto;
+	margin: auto;
 }
 
 
 /* Jumbotron */
 .jumbotron {
-	height: 600px; 
+  background-image: url(http://www.compugain.com/wp-content/uploads/2016/07/blockchain-bitcoin-database-illustraion.png);
+	height: 800px; 
 	text-align: right;
 }
 
@@ -149,10 +189,8 @@ btn:visited {
   }
 
   .main, .jumbotron {
-    padding: 0 30px;
+    padding: 30px;
   }
-
-  .main img {
-    width: 100%;
-  }
+  
+  
 }
