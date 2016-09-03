@@ -17,11 +17,11 @@ body {
    width: 250px;
    float: left;
    padding: 40px;
-   margin-top: -5px;
+   margin-top: -8px;
   }
 
 .main {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.66);
   padding: 90px;
 }
 
@@ -34,7 +34,11 @@ body {
 
 /* Header */
 .header {
-  background: url(http://www.collaborative.com/wp-content/uploads/2016/04/blockchain-1.jpg);
+  background: url(Pictures/bg-blockchain.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 700px;
   text-align: center; 
 }
@@ -146,9 +150,10 @@ btn:visited {
 
 .container-bottom {
   text-align: center;
+  font-size: 20px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 25px;
-  margin: 300px 0 0 400px;
+  margin: 300px 0 0 500px;
   float: left;
   width: 30%;
 }
@@ -160,14 +165,20 @@ btn:visited {
 /* Main */
 .main .container {
 	margin: auto;
+    margin-right: 0;
+    
 }
 
 
 /* Jumbotron */
 .jumbotron {
-  background-image: url(http://www.compugain.com/wp-content/uploads/2016/07/blockchain-bitcoin-database-illustraion.png);
-	height: 800px; 
-	text-align: right;
+    background-image: url(Pictures/blockchain-jumbotron.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+	height: 800px;
+    float: inherit;
+	text-align: center;
 }
 
 .jumbotron .container {
@@ -193,4 +204,11 @@ btn:visited {
   }
   
   
+}
+p {
+    
+}
+
+#sitez {
+    font-size: 12px;
 }
