@@ -25,10 +25,10 @@ body {
 }
 
 .main img {
-   width: 250px;
+   height: 280px;
    float: left;
    padding: 40px;
-   margin-top: 5px;
+   margin-top: -30px;
   }
 
 .main {
@@ -223,3 +223,10 @@ p {
 #sitez {
     font-size: 12px;
 }
+
+.main a {
+    color: black;
+    
+}
+
+
