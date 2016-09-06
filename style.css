@@ -3,6 +3,12 @@ html, body {
 	padding: 0;
 }
 
+#main-logo {
+    margin-top: 30px;
+    padding: 20px;
+    float:none;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
@@ -17,7 +23,7 @@ body {
    width: 250px;
    float: left;
    padding: 40px;
-   margin-top: -8px;
+   margin-top: 5px;
   }
 
 .main {
@@ -39,7 +45,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 850px;
   text-align: center; 
 }
 
@@ -52,22 +58,22 @@ body {
   text-shadow: 2px 2px black;
   font-family: futura;
   color: white;
-	font-size: 80px;
+	font-size: 40px;
 	line-height: 130px; 
-	margin-top: -80px;
-	margin-bottom: 150px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 @media (min-width:850px) {
 	.header h1 {
-		font-size: 120px;
+		font-size: 100px;
 	}
 }
 
 .header p {
   font-family: Futura;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 	font-weight: 500;
 	letter-spacing: 8px;
 	margin-top: -80px;
@@ -119,7 +125,7 @@ btn:visited {
 
 
 /* Nav */
-.nav {
+.nav {  
  background-color: #F7F9F9;
  padding: 20px;
 }
