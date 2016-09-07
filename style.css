@@ -25,10 +25,10 @@ body {
 }
 
 .main img {
-   height: 280px;
+   height: 300px;
    float: left;
    padding: 40px;
-   margin-top: -20px;
+   margin-top: 0px;
   }
 
 .main {
@@ -37,8 +37,16 @@ body {
 }
 
 .container {
-	margin: 0 auto;
-	max-width: 940px; 
+    position: relative;
+    margin: 0 auto;
+	max-width: 1200px; 
+	padding: 0 10px; 
+}
+
+.main .container {
+     position: relative;
+    margin: 0 auto;
+	max-width: 600px; 
 	padding: 0 10px; 
 }
 
@@ -230,3 +238,12 @@ p {
 }
 
 
+
+.main .container {}
+    
+}
+
+#word {
+    word-wrap: break-word;
+    float: right;
+}
