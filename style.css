@@ -8,6 +8,10 @@ html, body {
     text-decoration: none;
 }
 
+#sitez a {
+    color:white;
+}
+
 #main-logo {
     margin-top: 30px;
     padding: 20px;
@@ -24,30 +28,32 @@ body {
   width: 30px;
 }
 
-.main img {
-   height: 300px;
-   float: left;
-   padding: 40px;
-   margin-top: 0px;
+.wallet {
+   width: 100%;
+   padding: 10px 0 90px 0;
   }
 
 .main {
-  background-color: rgba(255, 255, 255, 0.66);
-  padding: 90px;
+    display: block;
+    margin: auto
+    text-align: center;
+
 }
 
 .container {
-    position: relative;
     margin: 0 auto;
-	max-width: 1200px; 
-	padding: 0 10px; 
+	max-width: 100%; 
+}
+
+.container > p {
+    margin-bottom: 20px;
 }
 
 .main .container {
-     position: relative;
-    margin: 0 auto;
-	max-width: 600px; 
-	padding: 0 10px; 
+    display: block;
+    margin: auto;
+	max-width: 1200px; 
+	padding: 40px; 
 }
 
 
@@ -67,29 +73,29 @@ body {
 	top: 200px;
 }
 
+
 .header h1 {
   text-shadow: 2px 2px black;
   font-family: 'Futura', sans-serif;
   color: white;
-	font-size: 40px;
 	line-height: 130px; 
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 60px;
 }
 
 @media (min-width:850px) {
 	.header h1 {
-		font-size: 100px;
+		font-size: 600%;
 	}
 }
 
-.header p {
+.header > p {
   font-family: Futura;
   color: white;
-  font-size: 20px;
+  font-size: 100%;
 	font-weight: 500;
 	letter-spacing: 8px;
-	margin-top: -80px;
+	margin-top: -50px;
   margin-bottom: 80px;
 }
 
@@ -141,75 +147,65 @@ btn:visited {
 .nav {  
  background-color: #F7F9F9;
  padding: 20px;
+ height: 30px;
+ margin-bottom: 10px;
 }
 
 
 .nav ul {
-  display: inline;
+    font-size: 125%;
+    display: inline;
 	list-style: none;
 	margin: 0 auto; 
-	padding: 30px;
+	padding: 50px;
 	text-align: center; 
 }
 
 .nav li:hover {
   padding: 10px;
   background: #117bff;
-	cursor: pointer; 
-	transition: background .5s;
+  cursor: pointer; 
+  transition: background .5s;
   display: inline;
   margin: 10px;
 }
 
 .nav li {
+  padding: 0 12px 0 12px;    
   display: inline;
   margin: 10px;
-  width: 100%;
 }
 
 .container-bottom {
+  margin: auto;
+  display: block;
   text-align: center;
-  font-size: 20px;
+  font-size: 130%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 25px;
-  margin: 300px 0 0 500px;
-  float: left;
   width: 30%;
+  position: absolute; top: 200px; left: 500px;
 }
 
 .container-bottom h4 {
   margin-top: 30px;
 }
 
-/* Main */
-.main .container {
-	margin: auto;
-    margin-right: 0;
-    
-}
+
 
 
 /* Jumbotron */
 .jumbotron {
+    max-width: 100%;
     background-image: url(Pictures/blockchain-jumbotron.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 	height: 800px;
-    float: inherit;
-	text-align: center;
-}
-
-.jumbotron .container {
-	position: relative;
-	top: 220px;
+    position: relative;
 }
 
 
-/* Footer */
-.footer { 
-	font-size: 14px;
-}
 
 /* Media Queries */
 @media (max-width: 500px) {
@@ -217,22 +213,27 @@ btn:visited {
     font-size: 50px;
     line-height: 64px;
   }
+    
+}
 
   .main, .jumbotron {
     padding: 30px;
   }
   
-  
-}
-p {
-    
-}
 
 #sitez {
-    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    font-size: 50%;
 }
 
 .main a {
+    color: black;
+    
+}
+
+.main a:visited {
     color: black;
     
 }
@@ -241,9 +242,42 @@ p {
 
 .main .container {}
     
+
+
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 80px;
+    clear: both;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-#word {
-    word-wrap: break-word;
-    float: right;
+p #footer {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+
+.main h2 {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#wallet {
+    display: block;
+    margin: auto;
+    width: 650px;
 }
